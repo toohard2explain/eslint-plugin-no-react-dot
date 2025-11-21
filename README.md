@@ -2,6 +2,8 @@
 
 This is an ESLint plugin that disallows the use of `React.` prefix in React code. It encourages developers to import React components and hooks directly, promoting cleaner and more concise code.
 
+> This rules includes an autofixer, but please note that you have to manually add the necessary imports after the autofix is applied.
+
 ## Installation
 
 You can install the plugin via npm:
