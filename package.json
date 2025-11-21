@@ -1,0 +1,29 @@
+{
+  "name": "eslint-plugin-no-react-dot",
+  "version": "0.1.0",
+  "author": "levihsmn <l@levihsmn.de>",
+  "description": "ESLint rules to forbid React.useX usage in favor of direct imports",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/index.js",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rm -rf dist && mkdir dist && cp -r src/* dist",
+    "lint": "eslint src --max-warnings=0",
+    "test": "node tests/run-tests.js",
+    "format": "prettier --write \"src/**/*.js\" \"tests/**/*.js\"",
+    "test:format": "prettier --check \"src/**/*.js\" \"tests/**/*.js\""
+  },
+  "peerDependencies": {
+    "eslint": "^9.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "prettier": "^3.6.2"
+  }
+}
