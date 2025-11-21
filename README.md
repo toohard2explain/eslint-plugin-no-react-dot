@@ -36,6 +36,21 @@ Add `no-react-dot` to the plugins section of your ESLint configuration file and 
 }
 ```
 
+or
+
+```mjs
+import * as noReactDot from 'eslint-plugin-no-react-dot';
+
+export default {
+  plugins: {
+    'no-react-dot': noReactDot,
+  },
+  rules: {
+    'no-react-dot/no-react-dot': 'error',
+  },
+};
+```
+
 ## Rule Details
 
 This rule disallows the use of `React.` prefix. For example, the following patterns are considered violations:
