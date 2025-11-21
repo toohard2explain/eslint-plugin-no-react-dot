@@ -1,5 +1,10 @@
 # eslint-plugin-no-react-dot
 
+[![Code Quality and Tests](https://github.com/toohard2explain/eslint-plugin-no-react-dot/actions/workflows/test.yml/badge.svg)](https://github.com/toohard2explain/eslint-plugin-no-react-dot/actions/workflows/test.yml)
+[![NPM Version](https://img.shields.io/npm/v/eslint-plugin-no-react-dot.svg)](https://www.npmjs.com/package/eslint-plugin-no-react-dot)
+[![License](https://img.shields.io/npm/l/eslint-plugin-no-react-dot.svg)](LICENSE)
+
+
 This is an ESLint plugin that disallows the use of `React.` prefix in React code. It encourages developers to import React components and hooks directly, promoting cleaner and more concise code.
 
 > This rules includes an autofixer, but please note that you have to manually add the necessary imports after the autofix is applied.

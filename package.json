@@ -2,6 +2,7 @@
   "name": "eslint-plugin-no-react-dot",
   "version": "0.1.0",
   "author": "levihsmn <l@levihsmn.de>",
+  keywords: ["eslint", "eslint-plugin", "react", "react-hooks", "no-react-dot"],
   "description": "ESLint rules to forbid React.useX usage in favor of direct imports",
   "license": "MIT",
   "type": "module",
