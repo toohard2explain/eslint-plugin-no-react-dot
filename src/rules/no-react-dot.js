@@ -27,8 +27,7 @@ export const rule = {
       },
     ],
     messages: {
-      noReactDot:
-        'Use "{{name}}" directly instead of "React.{{name}}".',
+      noReactDot: 'Use "{{name}}" directly instead of "React.{{name}}".',
     },
   },
 
